@@ -1,0 +1,22 @@
+<template>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div>
+        <a href="http://www.in28minutes.com" class="navbar-brand">in28Minutes</a>
+      </div>
+      <ul class="navbar-nav">
+        <li>
+          <a class="nav-link" href="/hello-world-string">Hello World String</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/hello-world-bean">Hello World Bean</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</template>
+<script>
+export default {
+  name: "Menu"
+};
+</script>
